@@ -4,4 +4,12 @@ class DemoController < ApplicationController
 
   def index
   end
+
+  def hello
+  end
+
+  def redirect
+    redirect_to(:action => 'hello')
+  end
+
 end
